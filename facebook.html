@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fake Facebook Login - Educational</title>
+<style>
+    body {
+        background-color: #f0f2f5;
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        width: 300px;
+        margin: 100px auto;
+        padding: 20px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+    h1 {
+        color: #1877f2;
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    input[type="text"], input[type="password"] {
+        width: 90%;
+        padding: 10px;
+        margin: 8px 0;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    button {
+        width: 95%;
+        padding: 10px;
+        background-color: #1877f2;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #145db2;
+    }
+    .note {
+        font-size: 12px;
+        color: red;
+        margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>facebook</h1>
+    <form>
+        <input type="text" placeholder="Email or phone number" required><br>
+        <input type="password" placeholder="Password" required><br>
+        <button type="button" onclick="alert('Educational demo – no data collected!')">
+            Log In
+        </button>
+    </form>
+    <!-- <p class="note">⚠ This is a demo page for educational purposes only.</p> -->
+</div>
+
+</body>
+</html>
