@@ -1455,7 +1455,7 @@ heading page
 */
 
 section.heading-page {
-  background-image: url(../sm/s-kaithal.jpeg);
+  background-image: url(../sm/staff.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1496,7 +1496,7 @@ section.meetings-page {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 140px;
+  padding-top: 55px;
   padding-bottom: 0px;
 }
 
